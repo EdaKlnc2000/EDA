@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[]args){
+        int mat,tarih,turkce,muzik,fizik,kimya;
+        Scanner inp=new Scanner(System.in);
+        System.out.print("mat notunuz:");
+        mat=inp.nextInt();
+
+        System.out.print("turkce notunuz:");
+        turkce=inp.nextInt();
+        System.out.print("fizik notunuz:");
+        fizik=inp.nextInt();
+        System.out.print("kimya notunuz:");
+        kimya= inp.nextInt();
+        System.out.print("tarih notunuz:");
+        tarih=inp.nextInt();
+        System.out.print("muzık notunuz:");
+        muzik=inp.nextInt();
+        int toplam=(mat+tarih+turkce+muzik+fizik+kimya);
+        double sonuc=toplam/6.0;
+                System.out.println("ortalmanız:"+sonuc);
+
+        System.out.println("Ortalmanız : " + sonuc);
+        boolean kosul1=((sonuc>=60));
+        System.out.println("Durum = " + (kosul1 ?"Gecti":"Kaldı"));
+
+
+
+    }
+}
