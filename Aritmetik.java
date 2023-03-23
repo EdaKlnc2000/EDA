@@ -1,5 +1,5 @@
  class Aritmetik {
-	     int x;
+	  i nt x;
 	     int y;
 
 	     public int Add(int x, int y) {
